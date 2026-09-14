@@ -74,7 +74,7 @@ export default function Home() {
 
       <main className="mx-auto max-w-3xl px-6 pb-24">
         {/* ── Hero ───────────────────────────────────────────────────────── */}
-        <section className="hero-glow relative isolate flex flex-col-reverse items-start gap-10 pt-20 sm:pt-28 md:flex-row md:items-start md:justify-between">
+        <section className="hero-glow relative isolate flex flex-col-reverse items-start gap-8 pt-20 sm:pt-28 md:flex-row md:items-start md:justify-between">
           <div data-reveal className="min-w-0 flex-1">
             <h1 className="font-serif text-[44px] leading-[1.05] tracking-[-0.015em] text-text sm:text-[58px]">
               {site.name}
@@ -110,7 +110,9 @@ export default function Home() {
               src={site.photo}
               alt={site.name}
               data-reveal
-              className="h-36 w-36 shrink-0 rounded-2xl border border-line object-cover sm:h-40 sm:w-40"
+              width={720}
+              height={720}
+              className="h-40 w-40 shrink-0 rounded-2xl border border-line object-cover shadow-[0_18px_40px_-18px_rgba(0,0,0,0.75)] sm:h-44 sm:w-44"
             />
           ) : (
             <div data-reveal className="flex h-36 w-36 shrink-0 items-center justify-center rounded-2xl border border-dashed border-line bg-panel p-4 text-center text-[12px] leading-relaxed text-muted sm:h-40 sm:w-40">

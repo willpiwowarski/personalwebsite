@@ -7,7 +7,7 @@ export const site = {
   name: "Will Piwowarski",
   headline: "Data Science / SWE Intern",
   company: "Rhobot AI Solutions",
-  schoolLine: "CS @ Liberty | Data Science & Software Engineering | May 2028",
+  schoolLine: "CS @ Liberty | Data Science & Software Engineering | 2028",
   previously: [{ label: "i7 Consulting Group", tone: "blue" as const }],
   seeking: "Seeking SWE internships · Summer 2027",
   email: "williamtpiwo@gmail.com",
@@ -17,9 +17,8 @@ export const site = {
   linkedinHandle: "/in/will-piwowarski",
   resume: "/resume.pdf",
   transcript: "/transcript.pdf",
-  // TODO: drop a headshot into /public (e.g. me.jpg) and set it here.
-  // Leave as null and a placeholder tile shows instead.
-  photo: null as string | null,
+  // Swap the file in /public to change it. null shows a placeholder tile.
+  photo: "/me.jpg" as string | null,
   metaDescription:
     "Will Piwowarski — software engineering and data science student at Liberty University. Full-stack, data, and AI systems work.",
 };
