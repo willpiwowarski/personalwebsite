@@ -10,7 +10,7 @@ export const site = {
   schoolLine: "CS @ Liberty | Data Science & Software Engineering | 2028",
   previously: [{ label: "i7 Consulting Group", tone: "blue" as const }],
   seeking: "Seeking SWE internships · Summer 2027",
-  email: "williamtpiwo@gmail.com",
+  email: "piwowarskiwill@gmail.com",
   github: "https://github.com/willpiwowarski",
   githubHandle: "/willpiwowarski",
   linkedin: "https://www.linkedin.com/in/will-piwowarski-900bb8323",
