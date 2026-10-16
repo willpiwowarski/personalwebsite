@@ -4,11 +4,15 @@ import { site } from "@/content/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://willpiwowarski.com"),
   title: `${site.name} — ${site.headline} @ ${site.company}`,
   description: site.metaDescription,
+  alternates: { canonical: "/" },
   openGraph: {
     title: `${site.name} — Software Engineer`,
     description: site.metaDescription,
+    url: "https://willpiwowarski.com",
+    siteName: site.name,
     type: "website",
   },
 };

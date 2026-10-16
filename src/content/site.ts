@@ -13,8 +13,8 @@ export const site = {
   email: "piwowarskiwill@gmail.com",
   github: "https://github.com/willpiwowarski",
   githubHandle: "/willpiwowarski",
-  linkedin: "https://www.linkedin.com/in/will-piwowarski-900bb8323",
-  linkedinHandle: "/in/will-piwowarski",
+  linkedin: "https://www.linkedin.com/in/willpiwowarski",
+  linkedinHandle: "/in/willpiwowarski",
   resume: "/resume.pdf",
   transcript: "/transcript.pdf",
   // Swap the file in /public to change it. null shows a placeholder tile.
